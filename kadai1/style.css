@@ -1,89 +1,120 @@
+body{
+  
+  font-family: 'Dancing Script', cursive;
+font-family: 'Kaisei Opti', serif;
 
-.title{  font-family: 'Dancing Script', cursive;font-size: larger;
-  font-size: 7rem;
-  margin-bottom: 2rem;
-
-}
-.containar{
-overflow: auto;
-scroll-snap-type: y mandatory;
-height: 100vh;
+text-align: center;
 }
 
 section{
- height: 100vh;
- scroll-snap-align: start;
- background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-
-}
-.hero{ background-image: url(img/images/bread1.jpg);
-  text-align: center;
-  padding-top: 10vh;
-
-}
-.menu{
-    background-image: url(img/images/bread2.jpg);
-    padding-top: 10vh;
-
-}
-.wrapper {
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.contact{
-  background-image: url(img/images/cafe.jpg);  
-  padding-top: 10vh;
-  text-align: center;
-
-
+  height: 100vh;
+  scroll-snap-align: start;
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
 } 
 h1{
- font-size: 10vb;
+  font-size: 7rem;
+  color:aliceblue;
 }
-.sns{
-  font-size: 50px;
-  color: white;
-  
-  border-radius: 50px;
-  display: inline-block;
-
-  margin-right:30px;
-  display: flex; /*かいぎょう*/
-  justify-content: center;
-
+h2{
+  font-size: 5rem;
 }
-.sns a{    
-  background: #fff;
-  width: 3.75rem;
-  height: 3.75rem;
-  display: inline-block;
-  margin: 0 .5rem;
-  border-radius: 50%;
+p{
   font-size: 2rem;
-  padding: .75rem 0 0 .125rem;
-  color: darkblue;
 }
-ul,li{list-style: none;}
+table{
+  font-size: 2rem;
+  margin:0 auto;
+  width: 70rem; 
+  height:4rem;
+  background-color: rgba(100, 100, 100, 0.3);
+  border-radius: 8px;
+  color: aliceblue;
+  
 
-.ask{
-  background: darkblue;
-  font-size: 1.5rem;
-  color: #fff;
-  padding: 1rem 3.5rem;
+}
+.JAL{
+  background-color: red;
+  color:aliceblue;
+  padding: 0.03rem 3rem;
   border-radius: 6px;
-  display: inline-block;
-
-  margin: 2rem 0 2.25rem;
 
 }
-.ask:hover{
-  background: brown;
+.ANA{
+  background-color: blue;
+  color:aliceblue;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
 }
+.skymark{
+  background-color: darkblue;
+  color: yellow;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+
+}
+.starflyer{
+  background-color: black;
+  color: aliceblue;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+
+}
+.AIRDO{
+  background-color: aqua;
+  color: yellow;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+
+}
+.Solaseed{
+  background-color: greenyellow;
+  color: gray;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+}
+
+.containar{
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  }
+  
+.top{
+  background-image: url(img/airplane-3702676_1280.jpeg);
+  color: aliceblue;
+  padding-top: 10vh;
+
+}
+.hokkaido{
+  background-image: url(img/hokkaido-g5594b7578_1280.jpg);
+}
+.tohoku{
+  background-image: url(img/tohoku.jpg);
+}
+.kantoizu{
+  background-image: url(img/kantohachijyojima.jpg);
+}
+.chubu{
+  background-image: url(img/nagoyacastle.jpg);
+}
+.kinki{
+  background-image: url(img/osakadoutonbori.jpg);
+}
+.chugoku{
+  background-image: url(img/hiroshimaitsukushima.jpg);
+}
+.shikoku{
+  background-image: url(img/ehimekirouzan.jpg);
+}
+.kyushu{
+  background-image: url(img/nagasakihoousetenbosu.jpg);
+}
+.okinawa{
+  background-image: url(img/okinawa-gf8b5c7343_1280.jpg);
+}
+
 @media(max-width: 700px){
   .title{
       font-size: 4rem;
