@@ -235,7 +235,7 @@ iframe{
 .acc li{
   text-align: center;
   font-size: larger;
-  padding-top: 100px;
+  padding-top: 80px;
 
 }
 
@@ -373,6 +373,13 @@ iframe{
   table{
     font-size: 1rem;
   }
+  iframe{
+    width:0px;
+  }
+  .ni td,.ni th{
+    padding: 15px 0px;
+  }
+  
 }
 @media(max-width:440px){
   table{
