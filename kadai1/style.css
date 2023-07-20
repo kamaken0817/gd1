@@ -18,12 +18,10 @@ header{
 }
 header ul{
   display: flex;
- 
 }
 li{
-  float: right;
   font-size: medium;
-
+ 
 }
 h3{
   padding-left: 5%;
@@ -71,10 +69,6 @@ h2{
 p{
   font-size: 2rem;
   margin:0px auto 0px;
-}
-.acc li{
-  padding:30px auto 20px 55%
-
 }
 table{
   font-size: 2rem;
@@ -238,7 +232,46 @@ span{
 iframe{
   margin-left:5%;
 }
+.acc li{
+  text-align: center;
+  font-size: larger;
+  display: inline;
+  padding-top: 80px;
+  
+}
 
+.train{
+  margin: 50px 50px;
+  border-radius: 6px;
+  padding: 20px 10px;
+
+  color:aliceblue;
+  background-color: red;
+}
+.car{
+  margin: 50px 50px;
+  border-radius: 6px;
+  padding: 20px 10px;
+
+  color:aliceblue;
+  background-color: green;
+}
+.bus{
+  margin: 50px 50px;
+  border-radius: 6px;
+  padding: 20px 10px;
+
+  color:aliceblue;
+  background-color: orange;
+}
+.ferry{  
+  margin: 50px 50px;
+  border-radius: 6px;
+  padding: 20px 10px;
+
+  color:#40cccc;
+  background-color: aliceblue;
+}
 @media(max-width: 1250px){
   table{
     width: 100%; 
