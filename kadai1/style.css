@@ -1,12 +1,49 @@
 body{
   
-  font-family: 'Dancing Script', cursive;
 font-family: 'Kaisei Opti', serif;
 
 text-align: center;
 }
+/*header sta*/
+header{
+  display: flex;
+  width:100%;
+  height: 50px;
+  top: 0px;
+  background-color: rgba(100, 100, 100, 0.8);
+  color:aliceblue;
 
+  position: fixed;
+
+}
+header ul{
+  display: flex;
+ 
+}
+li{
+  float: right;
+  font-size: medium;
+
+}
+h3{
+  padding-left: 5%;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.item{
+  list-style: none;
+  padding:5px;
+  color: aliceblue;
+
+}
+.item:hover{
+color:yellow;
+}
+/*header sto*/
 section{
+  margin-bottom:0;
   height: 100vh;
   scroll-snap-align: start;
   background-size: cover;
@@ -14,26 +51,86 @@ section{
  background-position: center center;
 } 
 h1{
-  font-size: 7rem;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  font-size: 6rem;
   color:aliceblue;
 }
 h2{
   font-size: 5rem;
+  color:aliceblue;
+  text-shadow: 1px 1px 1px rgba(100, 100, 100, 0.3);
+  padding-top: 40px;
+  padding-bottom: 1px;
+}
+.tytle{
+  font-size: 4rem;
+  margin: 10px  auto 30px;
+  
 }
 p{
   font-size: 2rem;
+  margin:0px auto 0px;
+}
+.acc li{
+  padding:30px auto 20px 55%
+
 }
 table{
   font-size: 2rem;
-  margin:0 auto;
-  width: 70rem; 
-  height:4rem;
+  margin:100px auto 20px;
+  width: 1250px; 
   background-color: rgba(100, 100, 100, 0.3);
   border-radius: 8px;
+  box-shadow: 3px 3px rgba(100, 100, 100, 0.3);
   color: aliceblue;
-  
-
 }
+.ni td,.ni th{
+  text-align: center;
+  padding: 22px 0px;
+}
+.ho td,.ho th{
+  text-align: center;
+  padding: 13px 0px;
+}
+.to td,.to th{
+  text-align: center;
+  padding: 25px 0px;
+}
+.ka td,.ka th{
+  text-align: center;
+  padding: 50px 0px;
+}
+.chu td,.chu th{
+  text-align: center;
+  padding: 30px 0px;
+}
+.ki td,.ki th{
+  text-align: center;
+  padding: 30px 0px;
+}
+.cyu td,.cyu th{
+  text-align: center;
+  padding: 15px 0px;
+}
+.shi td,.shi th{
+  text-align: center;
+  padding: 20px 0px;
+}
+.kyu td,.kyu th{
+  text-align: center;
+  padding: 12px 0px;
+}
+.oki td,.oki th{
+  text-align: center;
+  padding:12px 0px
+}
+
+/*改行のなんか */
+span{
+  display: inline-block;
+}
+/*airlines*/
 .JAL{
   background-color: red;
   color:aliceblue;
@@ -41,12 +138,20 @@ table{
   border-radius: 6px;
 
 }
+.JAL:hover {
+  box-shadow: 2px 2px aliceblue  ;
+}
+
 .ANA{
   background-color: blue;
   color:aliceblue;
   padding: 0.03rem 3rem;
   border-radius: 6px;
 }
+.ANA:hover{
+  box-shadow: 2px 2px #40cccc;
+}
+
 .skymark{
   background-color: darkblue;
   color: yellow;
@@ -54,38 +159,49 @@ table{
   border-radius: 6px;
 
 }
+.skymark:hover{
+  box-shadow: 2px 2px yellow;
+}
 .starflyer{
   background-color: black;
   color: aliceblue;
-  padding: 0.03rem 3rem;
+  padding: 0.03rem 2.5rem;
   border-radius: 6px;
 
 }
+.starflyer:hover{
+  box-shadow: 2px 2px aliceblue;
+
+}
 .AIRDO{
-  background-color: aqua;
+  background-color: dodgerblue;
   color: yellow;
   padding: 0.03rem 3rem;
   border-radius: 6px;
-
+}
+.AIRDO:hover{
+  box-shadow: 2px 2px yellow;
 }
 .Solaseed{
   background-color: greenyellow;
   color: gray;
-  padding: 0.03rem 3rem;
+  padding: 0.03rem 2.5rem;
   border-radius: 6px;
 }
+.Solaseed:hover{
+  box-shadow: 2px 2px gray;
 
+}
 .containar{
   overflow: auto;
   scroll-snap-type: y mandatory;
   height: 100vh;
-  }
   
+  }
+/*section*/
 .top{
   background-image: url(img/airplane-3702676_1280.jpeg);
   color: aliceblue;
-  padding-top: 10vh;
-
 }
 .hokkaido{
   background-image: url(img/hokkaido-g5594b7578_1280.jpg);
@@ -114,10 +230,120 @@ table{
 .okinawa{
   background-image: url(img/okinawa-gf8b5c7343_1280.jpg);
 }
+.access{
+  background-image: url(img/airport-1515431_1280.jpeg);
+}
 
-@media(max-width: 700px){
-  .title{
-      font-size: 4rem;
+/*google map*/
+iframe{
+  margin-left:5%;
+}
+
+@media(max-width: 1250px){
+  table{
+    width: 100%; 
+
+  }
+}
+@media(max-width: 1080px){
+  table{
+    font-size: 1.5rem;
+  }
+}
+@media(max-width: 850px){
+  .JAL{
+    padding: 0.03rem 2rem;
+  }
+  .ANA{
+    padding: 0.03rem 2rem;
+
+  }
+  .skymark{
+    padding: 0.03rem 1.6rem;
+  }
+  .AIRDO{  
+    padding: 0.03rem 2rem;
+  }
+  .Solaseed {
+    padding: 0.03rem 1rem;
+  }
+  .starflyer{
+    padding: 0.03rem 1rem;
+
+  }
+}
+
+@media(max-width: 748px){
+  header{
+    height: 65px;
+
+  }
+  .b{
+    font-size:0.75em;
+  }
+  h3{
+    padding-left: 2%;
+    bottom: 1px;
+    font-size: small;
+  }
+  header ul{
+    display: inline;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+  }
+  li{
+    font-size: small;
   }
   
+  h1{
+      font-size: 4rem;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  h2{
+    padding: 70px;
+    font-size: 3rem;
+  }
+  table{
+    font-size: 1.3rem;
+  }
+  .tytle{
+    font-size:2rem;
+  }
+  
+}
+@media(max-width:640px){
+  h2{
+    font-size: 1.2rem;
+  }
+  .JAL{
+    padding: 0.03rem 1rem;
+  }
+  .ANA{
+    padding: 0.03rem 1rem;
+  }
+  .skymark{
+    padding: 0.03rem 1rem;
+  }
+  .AIRDO{
+    padding: 0.03rem 1.1rem;
+  }
+  .Solaseed{
+    padding: 0.03rem 0.3rem;
+  }
+  .starflyer{
+    padding: 0.03rem 0.3rem;
+
+  }
+}
+@media(max-width:550px){
+  table{
+    font-size: 1rem;
+  }
+}
+@media(max-width:440px){
+  table{
+    font-size: 0.7rem;
+  }
 }
