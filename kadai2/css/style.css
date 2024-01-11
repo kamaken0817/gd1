@@ -1,0 +1,146 @@
+body{
+    background-color:cadetblue;
+    backdrop-filter: opacity(0.7);
+
+}
+.container{
+    max-width: 1000px;
+    margin: 0auto;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin-left: 3%;
+    padding-left: 2%;
+    width:65%;
+    background-color: rgb(255,240,220);
+    
+}
+aside{
+    margin-bottom: 1rem;
+    margin-right:3%;
+    width:25%;
+
+}
+.menu{
+    background-color: coral;
+    margin-top: 1rem;
+    position: sticky;
+    top:1rem;
+    padding-bottom: 3rem;
+}
+.contact{
+    background-color: aliceblue;
+    padding-bottom: 3rem;
+}
+
+
+
+a:hover{
+    color: #5f5f5f;
+}
+h1{
+    font-size:1.5rem;
+    font-family: 'Agbalumo', sans-serif;
+}
+h4{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+.img  {
+    width: 60%;
+    margin:1rem auto ;
+    padding-left: 10%;
+
+}
+.img2{
+    width:40%;
+    padding-left: 3%;
+}
+.kikyuu{
+    WIDTH:20%;
+}
+p{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+header{
+   margin:1rem auto;
+}
+h1,h3{
+    margin-top: 1rem;
+}
+
+li{
+    margin:1rem 20% 1rem ;
+    color: aliceblue;
+}
+/*contact*/
+.sns li{
+    padding-top: .3rem;
+    padding-left: .2rem;
+    padding-bottom: .3rem;
+    border-width: 3px;
+    border-radius: 10px;
+
+}
+.sns a{
+    color:#fff;
+    padding: .5rem,2rem,.5rem;
+    display: block;
+}
+.homepage{
+    border-color: #0a9cff;
+    background-color: #0a9cff;
+}
+.homepage a:hover{
+    color: #0a9cff;
+    transition: .5s;
+}
+.line{
+    border-color: #38d100;
+    background-color: #38d100;
+}
+
+.line a:hover{
+    color: #38d100;
+    transition: color .5s;
+}
+
+.facebook{
+    border-color:#0a57db;
+    background-color: #0a57db;
+}
+
+.facebook a:hover{
+    color: #0a57db;
+    transition: .5rem;
+}
+.x{
+    border-color: #000;
+    background-color: #000;
+}
+
+.x a:hover{
+    color: #000;
+    transition: .5s;
+}
+.insta{
+    border-color: #f906f1;
+    background-color: #f906f1;
+    
+}
+.insta a:hover{
+    color: #f906f1;
+}
+.youtube{
+    border-color: #ff1100;
+    background-color: #ff1100;
+}
+.youtube a:hover{
+    color: #ff1100;
+}
+.homepage:hover,.line:hover,.facebook:hover,.x:hover,.insta:hover,.youtube:hover{
+    background-color: #fff; 
+    transition: .5s;
+}
